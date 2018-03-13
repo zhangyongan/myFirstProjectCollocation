@@ -23,29 +23,7 @@ function quxiao(){
         erweima_box.style.display='none';
     }
 }
-window.onload=function(){
-    var cat1=document.getElementsByClassName('cat1')[0];
-    var oli=cat1.getElementsByTagName('li');
-    var a=cat1.getElementsByTagName('a');
-    var cat2=document.getElementsByClassName('cat2')[0];
-    var oli2=cat2.getElementsByTagName('li');
-    var a2=cat2.getElementsByTagName('a');
-    change(oli,a);
-    change(oli2,a2);
-    function change(oli,a){
-        for(var i=0;i<oli.length;i++){
-            oli[i].index=i;
-            oli[i].onclick=function(){
-                for(var i=0;i<oli.length;i++){
-                    oli[i].className="";
-                    a[i].style.color='#666';
-                }
-                this.className='bck_red';
-                a[this.index].style.color='#fff';
-            }
-        }
-    }   
-}
+
 $(function() {
     /*导航栏html*/
     var nav = [
