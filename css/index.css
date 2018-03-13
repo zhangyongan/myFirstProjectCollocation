@@ -1,0 +1,186 @@
+@import url("all.css");
+
+#container {
+    position: relative;
+    width: 1200px;
+    height: 400px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+#list {
+    position: absolute;
+    z-index: 1;
+    width: 8400px;
+    height: 400px;
+}
+
+#list img {
+    float: left;
+    width: 1200px;
+    height: 400px;
+}
+
+#buttons {
+    position: absolute;
+    left: 550px;
+    bottom: 20px;
+    z-index: 2;
+    height: 10px;
+    width: 100px;
+}
+
+#buttons span {
+    float: left;
+    margin: 0px 4px;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    background: #333;
+    cursor: pointer;
+}
+#buttons .on {
+    background: orangered;
+}
+
+.arrow {
+    position: absolute;
+    top: 180px;
+    z-index: 2;
+    display: none;
+    width: 40px;
+    height: 40px;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 39px;
+    text-align: center;
+    color: #fff;
+    background-color: RGBA(0, 0, 0, .3);
+    cursor: pointer;
+}
+
+.arrow:hover {
+    background-color: RGBA(0, 0, 0, .7);
+}
+
+#container:hover .arrow {
+    display: block;
+}
+
+#prev {
+    left: 20px;
+}
+
+#next {
+    right: 20px;
+}
+
+.seation_list{
+	margin-top: 40px;
+	width: 100%;
+}
+.seation_list .head .more{
+	font-size: 16px;
+	color: #999;
+	float: right;
+}
+.seation_list .head h2{
+	font-size: 20px;
+	color: #333;
+	line-height: 40px;
+}
+
+.seation_list .list .list_img .buy{
+    position: relative;
+    float: right;
+    right: -25px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #d32048;
+    border-radius: 20px;
+}
+.seation_list .list .list_img .buy:hover .tooltiptext{
+    display: block;
+}
+.seation_list .list .list_img .buy .tooltiptext{
+    position: absolute;
+    display: none;
+    width: 60px;
+    height: 20px;
+    bottom: 40px;
+    right: -20px;
+    z-index: 1;
+    background: #000;
+    opacity: 0.7;
+    border-radius: 5px;
+    padding: 3px 5px;
+    color: #fff;
+}
+.seation_list .list .list_img .buy .tooltiptext::after{
+    display: block;
+    position: absolute;
+    bottom: -10px;
+    right: 30px;
+    content: "";
+    border-width: 5px;
+    border-style: solid;
+    border-color: #000 transparent transparent transparent;
+}
+.seation_list .list .list_img .buy img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
+
+.seation_list .list .list_img{
+	width: 20%;
+	display: inline-block;
+	margin-right: 5%;
+}
+.seation_list .list .list_img>a:hover{
+	display: inline-block;
+	box-shadow: 0 0 5px #d8d8d8;
+}
+.seation_list .list .last_list_img{
+	margin-right: 0%;
+}
+.seation_list .list .list_img img{
+	width: 100%;
+}
+.seation_list .list .list_img >span:nth-child(2){
+	display: block;
+	font-size: 16px;
+	margin-top: 10px;
+}
+.seation_list .list .list_img >span:nth-child(4){
+	font-size: 14px;
+	color: #d32048;
+}
+.footer_top{
+	background: #fff;
+	padding: 30px 0;
+	font-size: 0;
+}
+
+.footer_top a{
+	display:block;
+	height: 60px;
+	line-height: 60px;
+
+}
+.footer_top img{
+	float: left;
+	padding-left:40px;
+}
+.footer_top .list_img{
+	width: 25%;
+	display: inline-block;
+	font-size: 20px;
+	text-align: center;
+}
+.footer_top .list_img a>span{
+	padding-right:30px;
+}

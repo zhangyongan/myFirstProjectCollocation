@@ -1,0 +1,78 @@
+@import url('all.css');
+.goods .list {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0px;
+}
+.goods .list table{
+    border-collapse: collapse;
+    width: 100%;
+    border-spacing: 0;
+    text-align: left;
+}
+.goods .list thead{
+    display: table-header-group;
+    vertical-align: middle;
+}
+.goods .list thead>tr{
+    display: table-row;
+    vertical-align:inherit;
+    
+}
+.goods .list tr>th,tr>td{
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+}
+.goods .list tbody>tr>td:not(:first-child){
+    vertical-align: top;
+}
+.goods .list .right_img{
+    width: 80px;
+    height: 80px;
+    background-image: url('http://tecmz-demo-shop.c.ecuster.com/data/image/2017/03/05/46755_qrfk_7949.jpg?v=e3b87ff2');
+    background-color: #fff;
+    background-size: contain;
+    background-position: center;
+    border:1px solid #eee;
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 2px;
+}
+.goods .list .left_text{
+    display: inline-block;
+    vertical-align: inherit;
+}
+.goods .list .left_text p{
+    color: #999;
+}
+.goods .list tbody>tr>td:nth-child(4)>input{
+    width: 40px;
+
+}
+.goods .list tbody>tr>td:nth-child(4)>*{
+    display: inline-block;
+    padding: 0 5px;
+    border:1px solid #ccc;
+    color: #999;
+    vertical-align: middle;
+    text-align: center;
+    height: 18px;
+}
+.goods .submit{
+    height: 50px;
+    line-height: 50px;
+    background: #fff;
+    font-size: 14px;
+    text-align: right;
+    margin: 10px 0 20px 0;
+}
+.goods .submit>div{
+    display: inline-block;
+    padding: 0 20px;
+}
+.goods .submit .button{
+    background:#d32048;
+}
+.goods .submit .button a{
+    color: #fff;
+}

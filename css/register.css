@@ -1,0 +1,105 @@
+@import url("all.css");
+
+.inline-block{
+	display: inline-block;
+	text-align: right;
+	width: 80px;
+	height: 40px;
+	line-height: 40px;
+}
+.content_login{
+	color: #666;
+}
+.content_login .login_link ul{
+	list-style-type: none;
+	padding: 15px 0px;
+}
+.content_login .login_link ul>li{
+	display: inline-block;
+}
+.content_login .login_link ul>li>a{
+	color: #666;
+}
+.content_login .login_link ul>li:nth-child(2):before{
+	content: "/";
+	display: inline-block;
+	margin: 0 8px;
+}
+.content_login .login_section{
+	background: #fff;
+	border-radius: 2px;
+	box-shadow: 0 0 8px #ddd;
+	-moz-box-shadow:0 0 8px #ddd;
+	-webkit-box-shadow:0 0 8px #ddd;
+	margin: 10px 0;
+}
+.content_login .login_section .login_top{
+	border-bottom: 1px solid #eee;
+	padding: 10px 20px;
+}
+.content_login .login_section .login_top>h1{
+	font-size: 18px;
+	font-weight: bold;
+	color: #d32048;
+}
+.content_login .login_section .login_bottom{
+	padding: 10px;
+}
+.content_login .login_section .login_bottom .login_bottom_left{
+	width: 50%;
+	border-right: 1px solid #eee;
+	margin: 30px 0px;
+	padding: 30px 0px;
+	display: inline-block;
+}
+.content_login .login_section .login_bottom .login_bottom_left div{
+	padding: 10px 0 10px 60px;
+}
+.content_login .login_section .login_bottom .login_bottom_left .demo>input,.psw>input,.db_psw>input{
+	border: 1px solid #ccc;
+	background: #fff;
+	border-radius: 3px;
+	height: 40px;
+	line-height: 40px;
+	padding: 0px 6px;
+	font-size: 16px;
+}
+.content_login .login_section .login_bottom .login_bottom_left input{
+	outline:none;
+}
+.content_login .login_section .login_bottom .login_bottom_left input:focus{
+	border: 1px solid #c7d5ee;
+}
+.content_login .login_section .login_bottom .login_bottom_left .submit{
+	margin-left: 200px;
+}
+.content_login .login_section .login_bottom .login_bottom_left .submit input{
+	width: 60px;
+	height: 40px;
+	background: #d32048;
+	border-radius: 5px;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+}
+.content_login .login_section .login_bottom .login_bottom_left .submit input:hover{
+	background: #bd1d40;
+}
+.content_login .login_section .login_bottom{
+	position: relative;
+}
+.content_login .login_section .login_bottom .login_bottom_right{
+	margin: 30px 0px;
+	padding: 30px 0px;
+	display: inline-block;
+	position: absolute;
+}
+.content_login .login_section .login_bottom .login_bottom_right>div>a{
+	color: #07d;
+}
+.content_login .login_section .login_bottom .login_bottom_right>div>a:hover{
+	color: #059;
+}
+.content_login .login_section .login_bottom .login_bottom_right>div{
+	padding: 10px 0 10px 60px;
+}

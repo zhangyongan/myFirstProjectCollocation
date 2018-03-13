@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>注册页</title>
+	<link rel="stylesheet" type="text/css" href="css/register.css">
+	<script type="text/javascript" src="js/register.js"></script>
+</head>
+<body>
+	<div class="header_top">
+		<div class="content">
+			<div class="right">
+				<span>欢迎来到 永安购物商城</span>
+				<a class="login" href="login.html">登录</a>
+				<a href="javascript:;">注册</a>
+			</div>
+			<div class="left">
+				<a class="home" href="index.html">首页</a>
+				<a href="javascript:;" onclick="quxiao()">手机版</a>
+			</div>
+		</div>
+	</div>
+	<div class="header_search">
+		<div class="content">
+			<a href="index.html">
+				<img src="imgs/logo.jpg" alt="logo"/>
+			</a>
+			<div class="right">
+				<div class="button">
+					<a href="carts.html">
+						<img src="imgs/购物车.png"/>
+						<span>购物车</span>
+						<span>1</span>
+					</a>
+				</div>
+				<div class="search">
+					<form action="#" method="get">
+						<div class="box">
+							<input type="text" name="keyword" placeholder="请输入您要搜索的商品"/>
+							<a href="fuzhuang.html">
+								<img src="imgs/搜索.png" alt="搜索">
+							</a>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="header_menu">
+		<div class="content">
+			<ul>
+				<li><a href="index.html">首页</a></li>
+				<li><a href="fuzhuang.html">服装</a></li>
+				<li><a href="#">婴童</a></li>
+				<li><a href="#">鞋子</a></li>
+				<li><a href="#">运动</a></li>
+				<li><a href="#">皮具</a></li>
+				<li><a href="#">数码</a></li>
+				<li><a href="#">出行</a></li>
+				<li><a href="#">各护</a></li>
+				<li><a href="#">居家</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="content_login">
+		<div class="content">
+			<div class="login_link">
+				<ul>
+					<li><a href="index.html">首页</a></li>
+					<li><span>用户注册</span></li>
+				</ul>
+			</div>
+			<div class="login_section">
+				<div class="login_top"><h1>用户注册</h1></div>
+				<div class="login_bottom">
+					<div class="login_bottom_left">
+						<form action="?" method="post">
+							<div class="demo">
+								<div class="inline-block">用户：</div>
+								<input type="text"/>
+							</div>
+							<div class="psw">
+								<div class="inline-block">密码：</div>
+								<input type="password"/>
+							</div>
+							<div class="db_psw">
+								<div class="inline-block">重复密码：</div>
+								<input type="password"/>
+							</div>
+							<div class="submit">
+								<input type="submit" value="提交"/>
+							</div>
+						</form>
+					</div>
+					<div class="login_bottom_right">
+						<div><span>已有帐号？</span><a href="login.html">马上登录</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer_bottom">
+		<div class="content">
+			<div class="banquan">
+				<div class="link">
+					<a href="#">关于我们</a>
+					<a href="#">联系我们</a>
+					<a href="#">政策说明</a>
+					<a href="#">帮助中心</a>
+				</div>
+				<div class="where">
+					<span>粤ICP备09061954号-8</span>
+				</div>
+				<div class="bqgs">
+					<span>© www.yongan.com 版权所有</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer_box">
+		<a href="javascript:returnTop();" class="box1"><img src="imgs/向上.png" alt=""></a>
+		<a href="javascript:;" class="box2" onclick="quxiao()"><img src="imgs/二维码.png" alt=""></a>
+	</div>
+	<div class="erweima_box" style="display: none;">
+		<div class="erweima_div" onclick="quxiao()">
+		</div>
+		<div class="erweima_center">
+			<div class="erweima_ralative">
+				<a href="javascript:;" class="erweima_a"><img src="imgs/erweima.png" alt="二维码"/></a>
+				<a href="javascript:;" class="quxiao" onclick="quxiao()"></a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

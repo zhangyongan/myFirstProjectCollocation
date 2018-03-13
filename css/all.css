@@ -1,0 +1,240 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body{
+	color: #333;
+	font-size: 12px;
+	background: #f9f9f9;
+}
+a{
+	text-decoration: none;
+	color: #333;
+	cursor: pointer;
+}
+.header_top{
+	height: 30px;
+	background: #EEE;
+	line-height: 30px;
+}
+.content{
+	max-width: 1200px;
+	min-width:800px;
+	margin: 0 auto;
+}
+.header_top .right{
+	float: right;
+}
+.header_top .left{
+	float: left;
+}
+.header_top .left a{
+	padding: 0px 20px;
+}
+.header_top .left .home{
+	border-right: 1px solid #ccc;
+}
+.header_top .right a{
+	padding: 0px 20px;
+}
+.header_top .right .login{
+	border-right: 1px solid #ccc;
+}
+.header_search{
+	height: 100px;
+	margin: 0 150px;
+}
+.header_search .content>a{
+	display: inline-block;
+}
+.header_search .content>a>img{
+	height: 70px;
+	margin:15px 0px;
+}
+.header_search .right{
+	text-align: right;
+	float: right;
+	padding: 33px 0px;
+}
+.header_search .right .button{
+	float: right;
+	height: 34px;
+}
+.header_search .right .button a{
+	border: 1px solid #eee;
+	background: #f8f8f8;
+	color: #666;
+	display: inline-block;
+	height: 34px;
+	line-height: 34px;
+	box-sizing: border-box;
+	border-radius: 3px;
+	margin:0 0 0 10px;
+	padding: 0 10px;
+}
+.header_search .right .search{
+	float: right;
+}
+.header_search .right .search form{
+	display: block;
+}
+.header_search .right .search .box{
+	width: 300px;
+	height: 34px;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	text-align: left;
+	margin-left: 100px;
+	border-radius: 3px;
+}
+.header_search .right .search .box input{
+	width: 248px;
+	height: 24px;
+	font-size: 14px;
+	margin: 5px;
+	border: 0px;
+	line-height: 24px;
+	outline: 0;
+	display: inline-block;
+	padding: 0;
+}
+.header_search .right .search .box a{
+	display: inline-block;
+	width: 35px;
+	height: 32px;
+	line-height: 40px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	border-left: 1px solid #ccc;
+	vertical-align: top;
+}
+.header_search .right .search .box img{
+	width: 16px;
+	height: 16px;
+}
+.header_search .right .button img{
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+}
+.header_menu{
+	height: 40px;
+	background: #d32048;
+}
+.header_menu ul{
+	list-style-type: none;
+}
+.header_menu li{
+	display: inline-block;
+}
+.header_menu li>a:hover{
+	background: #bd1d40;
+}
+.header_menu li>a{
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	box-sizing: border-box;
+	padding: 0 2em;
+}
+.footer_bottom{
+	background: #333;
+	padding: 40px 0;
+	color: #ccc;
+	line-height: 20px;
+	text-align: center;
+	font-size: 14px;
+}
+.footer_bottom .banquan{
+	display: inline-block;
+}
+.footer_bottom a{
+	color: #ccc;
+	border-right: 1px solid #ccc;
+	padding:0 10px;
+}
+.footer_bottom a:last-child{
+	border-right: none;
+}
+.footer_bottom a:first-child{
+	padding-left: 0;
+}
+.footer_bottom .where{
+	margin-top: 10px;
+}
+.footer_box a{
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	color: #fff;
+	background: rgba(0,0,0,.3);
+	border-radius: 3px;
+	line-height: 50px;
+	right: 20px;
+    display: block;
+     z-index: 3;
+}
+.footer_box .box1{	
+	bottom: 220px;
+}
+.footer_box .box2{	
+	bottom: 160px;
+}
+.footer_box img{
+	display: block;
+	width: 20px;
+	height: 20px;
+	margin: 0 auto;
+	padding: 15px 0;
+}
+.erweima_div{
+	display: block;
+	background: rgba(0,0,0,.3);
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	position: fixed;
+	top: 0;
+	left: 0;
+
+}
+.erweima_center{
+	z-index: 10;
+	position: fixed;
+	width: 240px;
+	height: 240px;
+	background: #fff;
+	top: 50%;
+	left: 50%;
+	margin-top: -120px;
+	margin-left: -120px;
+	
+
+}
+.erweima_center .erweima_ralative{
+	position: relative;
+	text-align: center;
+}
+.erweima_center .erweima_ralative .erweima_a{
+	display: block;
+	margin-top: 20px;
+}
+.erweima_center .quxiao{
+	display: block;
+	width: 30px;
+	height: 30px;
+	background: url('../imgs/quxiao.png') -150px -31px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -130px;
+	margin-left: 100px;
+}
+.erweima_center .quxiao:hover{
+	background: url('../imgs/quxiao.png') -180px -31px;
+}

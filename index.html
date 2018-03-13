@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, height=device-height, user-scalable=no, initial-scale=1.0">
+	<meta charset="utf-8">
+	<title>永安商城首页</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+	<div class="header_top">
+		<div class="content">
+			<div class="right">
+				<span>欢迎来到 永安购物商城</span>
+				<a class="login" href="login.html">登录</a>
+				<a href="register.html">注册</a>
+			</div>
+			<div class="left">
+				<a class="home" href="index.html">首页</a>
+				<a href="javascript:;" onclick="quxiao()">手机版</a>
+			</div>
+		</div>
+	</div>
+	<div class="header_search">
+		<div class="content">
+			<a href="index.html">
+				<img src="imgs/logo.jpg" alt="logo"/>
+			</a>
+			<div class="right">
+				<div class="button">
+					<a href="carts.html">
+						<img src="imgs/购物车.png"/>
+						<span>购物车</span>
+						<span>1</span>
+					</a>
+				</div>
+				<div class="search">
+					<form action="#" method="get">
+						<div class="box">
+							<input type="text" name="keyword" placeholder="请输入您要搜索的商品"/>
+							<a href="#">
+								<img src="imgs/搜索.png" alt="搜索">
+							</a>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="header_menu">
+	</div>
+	<div class="content">
+	</div>
+	<div class="seation_banner">
+		<div class="content">
+			<div id="container">
+				<div id="list" style="left: -1200px;">
+					<img src="imgs/5.jpg" alt="1" />
+					<img src="imgs/1.jpg" alt="1" />
+					<img src="imgs/2.jpg" alt="2" />
+					<img src="imgs/3.jpg" alt="3" />
+					<img src="imgs/4.jpg" alt="4" />
+					<img src="imgs/5.jpg" alt="5" />
+					<img src="imgs/1.jpg" alt="5" />
+				</div>
+				<div id="buttons">
+					<span index="1" class="on"></span>
+					<span index="2"></span>
+					<span index="3"></span>
+					<span index="4"></span>
+					<span index="5"></span>
+				</div>
+				<a href="javascript:;" id="prev" class="arrow">&lt;</a>
+				<a href="javascript:;" id="next" class="arrow">&gt;</a>
+			</div>
+		</div>
+	</div>
+	<div class="seation_list">
+		<div class="content">
+			<div class="head">
+				<div class="more">
+					<a href="fuzhuang.html">更多></a>
+				</div>
+				<h2>服装</h2>
+			</div>
+			<div class="list" id="list_1">
+			</div>
+		</div>
+	</div>
+	<div class="seation_list">
+		<div class="content">
+			<div class="head">
+				<div class="more">
+					<a href="#">更多></a>
+				</div>
+				<h2>婴童</h2>
+			</div>
+			<div class="list" id="list_2">
+			
+			</div>
+		</div>
+	</div>
+	<div class="footer_top">
+		<div class="content">
+			<div class="list_img"><a href="#"><img src="imgs/7day.png" alt="图片1"><span>七天报障</span></a></div>
+			<div class="list_img"><a href="#"><img src="imgs/jswl.png" alt="图片1"><span>极速物流</span></a></div>
+			<div class="list_img"><a href="#"><img src="imgs/psbf.png" alt="图片1"><span>破损补寄</span></a></div>
+			<div class="list_img"><a href="#"><img src="imgs/pz.png" alt="图片1"><span>品质保障</span></a></div>
+		</div>
+	</div>
+	<div class="footer_bottom">
+		<div class="content">
+			<div class="banquan">
+				<div class="link">
+					<a href="#">关于我们</a>
+					<a href="#">联系我们</a>
+					<a href="#">政策说明</a>
+					<a href="#">帮助中心</a>
+				</div>
+				<div class="where">
+					<span>粤ICP备09061954号-8</span>
+				</div>
+				<div class="bqgs">
+					<span>© www.yongan.com 版权所有</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer_box">
+		<a href="javascript:returnTop();" class="box1"><img src="imgs/向上.png" alt=""></a>
+		<a href="javascript:;" class="box2" onclick="quxiao()"><img src="imgs/二维码.png" alt=""></a>
+	</div>
+	<div class="erweima_box" style="display: none;">
+		<div class="erweima_div" onclick="quxiao()">
+		</div>
+		<div class="erweima_center">
+			<div class="erweima_ralative">
+				<a href="javascript:;" class="erweima_a"><img src="imgs/erweima.png" alt="二维码"/></a>
+				<a href="javascript:;" class="quxiao" onclick="quxiao()"></a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

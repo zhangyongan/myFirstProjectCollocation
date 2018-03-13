@@ -1,0 +1,203 @@
+@import url("all.css");
+.clearfloat:after{
+	display:block;
+	clear:both;
+	content:"";
+	visibility:hidden;height:0
+} 
+.clearfloat{
+	zoom:1
+}
+.border_red{
+	border-color: #d32048 !important;
+}
+.border_text_red{
+	border-color: #d32048 !important ;
+	color: #d32048 ;
+}
+.content_list{
+	color: #666;
+}
+.content_list .top a{
+	color: #666;
+}
+.content_list .top{
+	padding: 10px 0px;
+	font-size: 13px;
+}
+.content_list .top span{
+	padding: 0 5px;
+}
+.content_list .top a:after{
+	content: ">";
+}
+.content_list .center{
+	height: 402px;
+	margin-bottom: 30px;
+}
+.content_list .center .left{
+	float: left;
+	width: 50%;
+}
+.content_list .center .center_right{
+	float: right;
+}
+.content_list .center .center_left{
+	background-color: #fff;
+	width: 473px;
+	height: 400px;
+	background-image: url('http://tecmz-demo-shop.c.ecuster.com/data/image/2017/03/05/46755_qrfk_7949.jpg?v=e3b87ff2');
+	border: 1px solid #eee;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+}
+
+.content_list .center .center_center{
+	display: inline-block;
+	height: 400px;
+	border: 1px solid #eee;
+	margin-left: 6px;
+	background-color: #fff;
+}
+.content_list .center .center_center ul{
+	list-style-type: none;
+}
+
+.content_list .center .center_center ul>li{
+	height: 68px;
+	width: 68px;
+	
+	background-repeat: no-repeat;
+	border: 2px solid #ccc;
+	margin: 6.5px 6.5px;
+}
+.content_list .center .right{
+	display: inline-block;
+}
+.content_list .center .right{
+	width: 50%;
+	background: #fff;
+	height: 402px;
+}
+.content_list .center .right .center_right_top{
+	border-bottom: 1px solid #ccc;
+	margin:0px 10px;
+}
+.content_list .center .right .center_right_top h2{
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 25px;
+	margin-top: 20px;
+}
+.content_list .center .right .center_right_top span{
+	font-size: 14px;
+	color: #999;
+	line-height: 30px;
+}
+.content_list .center .right .center_right_bottom ul{
+	list-style-type: none;
+	margin:0px 10px;
+	color: #666;
+	font-size: 13px;
+}
+.content_list .center .right .center_right_bottom ul>li{
+	line-height: 30px;
+	margin: 12px 0;
+}
+.content_list .center .right .center_right_bottom>ul>li>span:nth-child(2){
+	margin-left: 20px;
+}
+.content_list .center .right .center_right_bottom .li_1 span:nth-child(2){
+	text-decoration: line-through;
+	font-weight: bold;
+	color: #999; 
+}
+.content_list .center .right .center_right_bottom .li_2 span:nth-child(2){
+	font-weight: bold;
+	color: #d32048;
+	font-size: 16px;
+}
+.content_list .center .right .center_right_bottom .li_3 span:nth-child(2){
+	font-weight: bold;
+}
+.content_list .center .right .center_right_bottom .li_4>span:not(:first-child),.li_5>span:nth-child(2),.li_6>*:not(:first-child){
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	padding: 0 5px;
+	margin-right: 10px;
+}
+.content_list .center .right .center_right_bottom .li_6>input{
+	height: 30px;
+	width: 40px;
+	text-align: center;
+	outline: none;
+}
+
+.content_list .center .right .center_right_bottom .li_7>a{
+	display: inline-block;
+	background-color: #d32048;
+	color: #fff;
+	padding: 5px 40px;
+	border: 2px solid #d32048;
+}
+.content_list .center .right .center_right_bottom .li_7>a:last-child{
+	color: #d32048;
+	background-color: #fff;
+}
+.content_list .bottom{
+	background: #fff;
+	border:1px solid #eee;
+	margin: 20px 0px;
+}
+.content_list .bottom .tab{
+	border-bottom: 1px solid #eee;
+	font-size: 0;
+	-webkit-text-size-adjust:none;
+}
+.content_list .bottom .tab>div{
+	display: inline-block;
+	font-size: 12px;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 40px;
+	border-bottom: 2px solid #eee;
+}
+.content_list .bottom .list{
+	text-align: center;
+	font-size: 16px;
+	color: #333;
+	font-weight: bold;
+	padding: 20px 0px;
+}
+.content_list .bottom .list img{
+	vertical-align: middle;
+}
+.content_list .bottom .list ul{
+	list-style-type: none;
+}
+.content_list .bottom .list p{
+	margin: 5px 0px;
+}
+.content_list .bottom .parameter{
+	display: none;
+	margin: 20px 0px;
+}
+.content_list .bottom .parameter ul{
+	list-style-type: none;
+	margin: 0 30px;
+}
+.content_list .bottom .parameter ul>li{
+	border-bottom: 1px solid #eee;
+	height: 40px;
+	line-height: 40px;
+}
+.content_list .bottom .parameter ul>li:last-child{
+	border-bottom: none;
+}
+.content_list .bottom .parameter .name{
+	color: #333;
+	max-width: 5em;
+}

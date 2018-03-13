@@ -1,0 +1,114 @@
+@import url("all.css");
+
+.content_login{
+	color: #666;
+}
+.content_login .login_link ul{
+	list-style-type: none;
+	padding: 15px 0px;
+}
+.content_login .login_link ul>li{
+	display: inline-block;
+}
+.content_login .login_link ul>li>a{
+	color: #666;
+}
+.content_login .login_link ul>li:nth-child(2):before{
+	content: "/";
+	display: inline-block;
+	margin: 0 8px;
+}
+.content_login .login_section{
+	background: #fff;
+	border-radius: 2px;
+	box-shadow: 0 0 8px #ddd;
+	-moz-box-shadow:0 0 8px #ddd;
+	-webkit-box-shadow:0 0 8px #ddd;
+	margin: 10px 0;
+}
+.content_login .login_section .login_top{
+	border-bottom: 1px solid #eee;
+	padding: 10px 20px;
+}
+.content_login .login_section .login_top>h1{
+	font-size: 18px;
+	font-weight: bold;
+	color: #d32048;
+}
+.content_login .login_section .login_bottom{
+	padding: 10px;
+}
+.content_login .login_section .login_bottom .login_bottom_left{
+	width: 50%;
+	border-right: 1px solid #eee;
+	margin: 30px 0px;
+	padding: 30px 0px;
+	display: inline-block;
+}
+.content_login .login_section .login_bottom .login_bottom_left .demo,.psw,.submit{
+	padding: 10px 0 10px 60px;
+}
+.content_login .login_section .login_bottom .login_bottom_left .demo>input,.psw>input{
+	border: 1px solid #ccc;
+	background: #fff;
+	border-radius: 3px;
+	height: 40px;
+	line-height: 40px;
+	padding: 0px 6px;
+	font-size: 16px;
+}
+.content_login .login_section .login_bottom .login_bottom_left input{
+	outline:none;
+	width: 12em;
+}
+.content_login .login_section .login_bottom .login_bottom_left input:focus{
+	border: 1px solid #c7d5ee;
+}
+.content_login .login_section .login_bottom .login_bottom_left .submit{
+	margin-left: 100px;
+}
+.content_login .login_section .login_bottom .login_bottom_left .submit input{
+	width: 60px;
+	height: 40px;
+	background: #d32048;
+	border-radius: 5px;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+}
+.content_login .login_section .login_bottom .login_bottom_left .submit input:hover{
+	background: #bd1d40;
+}
+.content_login .login_section .login_bottom .login_bottom_right{
+	margin: 30px 0px;
+	padding: 30px 0px;
+	display: inline-block;
+}
+.content_login .login_section .login_bottom .login_bottom_right>div>a{
+	color: #07d;
+}
+.content_login .login_section .login_bottom .login_bottom_right>div>a:hover{
+	color: #059;
+}
+.content_login .login_section .login_bottom .login_bottom_right>div{
+	padding: 10px 0 10px 60px;
+}
+.content_login .login_section .login_bottom .login_bottom_right .login_style>a{
+	color: #d32048;
+	display: inline-block;
+	background: #eee;
+	height: 30px;
+	line-height: 30px;
+	padding: 0px 10px;
+	text-align: center;
+	border-radius: 3px;
+	margin: 3px 10px 3px 0px;
+	border: 1px solid #ddd;
+}
+.content_login .login_section .login_bottom .login_bottom_right .login_style>a:hover{
+	color: #d32048;
+}
+.content_login .login_section .login_bottom .login_bottom_right .login_style>a>img{
+	display: inline-block;
+	vertical-align: middle;
+}
